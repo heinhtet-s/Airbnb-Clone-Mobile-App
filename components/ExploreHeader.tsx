@@ -69,7 +69,7 @@ const ExploreHeader = ({ onCategoryChanged }: Props) => {
   };
 
   return (
-    <SafeAreaView style={{ backgroundColor: "#42334E", paddingTop: 10 }}>
+    <SafeAreaView style={{ backgroundColor: "#000" }}>
       <View style={styles.container}>
         <View style={styles.actionRow}>
           <Link href={"/(tabs)/profile"} asChild>
@@ -136,11 +136,11 @@ const ExploreHeader = ({ onCategoryChanged }: Props) => {
 
 const styles = StyleSheet.create({
   container: {
-    // backgroundColor: "#fff",
+    backgroundColor: "#fff",
     // height: 130,
     // elevation: 2,
-    backgroundColor: "#342393",
     marginBottom: 0,
+    paddingVertical: 16,
     shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowRadius: 6,

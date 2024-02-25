@@ -46,6 +46,7 @@ function RootLayoutNav() {
         <BottomSheetModalProvider>
           <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="listing/[id]" options={{ headerTitle: "" }} />
             {/* <Stack.Screen name="modal" options={{ presentation: "modal" }} /> */}
           </Stack>
         </BottomSheetModalProvider>
